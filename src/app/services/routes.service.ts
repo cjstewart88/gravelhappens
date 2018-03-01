@@ -8,6 +8,8 @@ export class RoutesService {
     {
       id: 'the-dirty-sheets',
       name: 'The Dirty Sheets',
+      location: 'Chattahoochee Hills',
+      distance: 20,
       shortDescription:
         `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -37,6 +39,8 @@ export class RoutesService {
     {
       id: 'soggy-feet',
       name: 'Soggy Feet',
+      location: 'Juliette',
+      distance: 27,
       shortDescription:
         `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

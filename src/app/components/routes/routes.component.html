@@ -1,5 +1,9 @@
-<div *ngFor="let route of routes">
+<app-georgia-map></app-georgia-map>
+
+<div *ngFor="let route of routes" id="routes-list">
   <h2>{{route.name}}</h2>
+  <b>Location:</b> {{route.location}}<br/>
+  <b>Distance:</b> {{route.distance}} miles
   <p>{{route.shortDescription}}</p>
   <a [routerLink]="['/routes', route.id]">View Route</a>
 </div>
