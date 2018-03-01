@@ -2,9 +2,11 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { RoutesComponent } from './components/routes/routes.component';
+import { RouteComponent } from './components/route/route.component';
 
 const appRoutes: Routes = [
-  { path: 'routes', component: RoutesComponent }
+  { path: 'routes', component: RoutesComponent },
+  { path: 'routes/:id', component: RouteComponent }
 ];
 
 @NgModule({
@@ -12,7 +14,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(
       appRoutes,
       {
-        enableTracing: true, // <-- debugging purposes only
+        enableTracing: false, // <-- debugging purposes only
       }
     )
   ],
