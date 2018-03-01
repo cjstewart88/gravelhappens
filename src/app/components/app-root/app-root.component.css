@@ -1,0 +1,11 @@
+.app-root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  color: #444;
+  font-family: 'Scope One', serif;
+}
+
+h1 {
+  text-align: center;
+}

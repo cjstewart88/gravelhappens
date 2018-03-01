@@ -1,0 +1,9 @@
+.route-preview-name {
+  height: 120px;
+  line-height: 120px;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,1);
+}
