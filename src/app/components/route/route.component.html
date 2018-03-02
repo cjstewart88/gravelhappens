@@ -1,8 +1,7 @@
 <h2>
   <a class="back-button" routerLink="/routes" routerLinkActive="active">Routes</a> <span class="breadcrumb">></span> {{route.name}}
 </h2>
-<section [innerHTML]="route.longDescription"></section>
+<section class="route-description" [innerHTML]="route.longDescription | safeHtml"></section>
 <iframe [src]="'https://rwgps-embeds.com/embeds?type=route&amp;id=' + route.rideWithGpsId + '&amp;sampleGraph=true' | safeUrl" 
-  style="width: 1px; min-width: 100%; height: 700px; border: none;" scrolling="no">
+  style="width: 1px; min-width: 100%; height: 500px; border: none;" scrolling="no">
 </iframe>
-<img *ngFor="let picture of route.pictures" [src]="'/assets/' + route.id + '/' + picture"/>

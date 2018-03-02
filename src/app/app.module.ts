@@ -9,13 +9,15 @@ import { RouteComponent } from './components/route/route.component';
 
 import { RoutesService } from './services/routes.service';
 import { SafeUrlPipe } from './pipes/safe-url.pipe';
+import { SafeHtmlPipe } from './pipes/safe-html.pipe';
 
 @NgModule({
   declarations: [
     AppRootComponent,
     RoutesComponent,
     RouteComponent,
-    SafeUrlPipe
+    SafeUrlPipe,
+    SafeHtmlPipe
   ],
   imports: [
     BrowserModule,

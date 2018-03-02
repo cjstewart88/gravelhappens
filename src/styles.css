@@ -6,3 +6,28 @@ body {
 a {
   color: #444;
 }
+
+p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+p .floating-right-img {
+  float: right;
+  width: 390px;
+  margin-left: 20px;
+}
+
+p .floating-left-img {
+  float: left;
+  width: 390px;
+  margin-right: 20px;
+}
+
+.bottom-img {
+  width: 390px;
+}
+
+.bottom-img.first {
+  margin-right: 15px;
+}
