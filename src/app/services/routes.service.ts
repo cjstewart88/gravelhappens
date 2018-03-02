@@ -1,10 +1,12 @@
 import { Injectable } from '@angular/core';
 
+import { Route } from '../interfaces/route';
+
 @Injectable()
 export class RoutesService {
   constructor() {}
 
-  public routes = [
+  public routes: Route[] =[
     {
       id: 'the-dirty-sheets',
       name: 'The Dirty Sheets',

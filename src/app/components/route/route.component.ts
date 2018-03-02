@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
+import { Route } from '../../interfaces/route';
 import { RoutesService } from '../../services/routes.service';
 
 @Component({
@@ -9,7 +10,7 @@ import { RoutesService } from '../../services/routes.service';
   styleUrls: ['./route.component.css']
 })
 export class RouteComponent implements OnInit {
-  public route: {};
+  public route: Route;
 
   constructor(
     private activatedRoute: ActivatedRoute,
