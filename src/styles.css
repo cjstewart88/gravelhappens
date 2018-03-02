@@ -14,18 +14,18 @@ p {
 
 p .floating-right-img {
   float: right;
-  width: 390px;
+  max-width: 390px;
   margin-left: 20px;
 }
 
 p .floating-left-img {
   float: left;
-  width: 390px;
+  max-width: 390px;
   margin-right: 20px;
 }
 
 .bottom-img {
-  width: 390px;
+  max-width: 390px;
 }
 
 .bottom-img.first {

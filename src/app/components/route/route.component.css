@@ -1,5 +1,29 @@
-.breadcrumb {
-  margin: 0 10px;
+.metrics-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  margin-bottom: 40px;
+  border-top: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
+}
+
+.route-metrics {
+  display: inline-block;
+}
+
+.route-metrics.last {
+  border-right: none;
+}
+
+.metric {
+  display: block;
+  font-size: 28px;
+}
+
+.metric-name {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #a5a5a5;
 }
 
 .route-description {

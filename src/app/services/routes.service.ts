@@ -10,12 +10,13 @@ export class RoutesService {
       name: 'The Dirty Sheets',
       location: 'Palmetto, GA',
       distance: 19.9,
+      elevation: 927,
       rideWithGpsId: 26950038,
       pictures: ['1.JPG', '2.JPG', '3.JPG', '4.JPG'],
       longDescription:
         `<p>You'll start this route out in the Cochran Mill Park parking lot, be 
         sure to take some cash or a credit card, there's a small fee. There's bathrooms 
-        and picknic tables on the site. Bring a lunch and enjoy it after morning of riding.</p>
+        and picknic tables on the site. Bring a lunch and enjoy it after a morning of riding.</p>
         <p><img src="/assets/the-dirty-sheets/1.JPG" class="floating-left-img"> The route starts 
         out on Cochran Mill Rd, but don't worry, shortly after you'll be humming along the gravel 
         for most of the rest of the ride. </p> <p>You'll travel past country homes and farms, some 
@@ -35,6 +36,7 @@ export class RoutesService {
       name: 'Soggy Feet',
       location: 'Juliette, GA',
       distance: 27.8,
+      elevation: 1753,
       rideWithGpsId: 26914844,
       pictures: ['1.JPG', '2.JPG', '3.JPG', '4.JPG', '5.JPG']
     }

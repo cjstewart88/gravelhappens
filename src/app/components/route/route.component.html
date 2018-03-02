@@ -1,7 +1,24 @@
-<h2>
-  <a class="back-button" routerLink="/routes" routerLinkActive="active">Routes</a> <span class="breadcrumb">></span> {{route.name}}
-</h2>
+<div class="metrics-wrapper">
+  <div class="route-metrics">
+    <span class="metric">{{route.name}}</span>
+    <span class="metric-name">Route Name</span>
+  </div>
+  <div class="route-metrics">
+    <span class="metric">{{route.location}}</span>
+    <span class="metric-name">Location</span>
+  </div>
+  <div class="route-metrics">
+    <span class="metric">{{route.distance}}</span>
+    <span class="metric-name">Miles</span>
+  </div>
+  <div class="route-metrics">
+    <span class="metric">{{route.elevation}} ft</span>
+    <span class="metric-name">Elevation</span>
+  </div>
+</div>
+
 <section class="route-description" [innerHTML]="route.longDescription | safeHtml"></section>
+
 <iframe [src]="'https://rwgps-embeds.com/embeds?type=route&amp;id=' + route.rideWithGpsId + '&amp;sampleGraph=true' | safeUrl" 
   style="width: 1px; min-width: 100%; height: 500px; border: none;" scrolling="no">
 </iframe>
