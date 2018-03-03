@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { DisqusModule } from "ngx-disqus";
+
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppRootComponent } from './components/app-root/app-root.component';
@@ -20,6 +22,7 @@ import { SafeHtmlPipe } from './pipes/safe-html.pipe';
     SafeHtmlPipe
   ],
   imports: [
+    DisqusModule.forRoot('disqus_shortname'),
     BrowserModule,
     AppRoutingModule
   ],

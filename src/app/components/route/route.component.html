@@ -22,3 +22,5 @@
 <iframe [src]="'https://rwgps-embeds.com/embeds?type=route&amp;id=' + route.rideWithGpsId + '&amp;sampleGraph=true' | safeUrl" 
   style="width: 1px; min-width: 100%; height: 500px; border: none;" scrolling="no">
 </iframe>
+
+<disqus [identifier]="route.id" [url]="'http://georgiagravelroutes.com/route/' + route.id"></disqus>
