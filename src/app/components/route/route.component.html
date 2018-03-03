@@ -19,8 +19,10 @@
 
 <section class="route-description" [innerHTML]="route.longDescription | safeHtml"></section>
 
+<h2>The Route</h2>
 <iframe [src]="'https://rwgps-embeds.com/embeds?type=route&amp;id=' + route.rideWithGpsId + '&amp;sampleGraph=true' | safeUrl" 
   style="width: 1px; min-width: 100%; height: 500px; border: none;" scrolling="no">
 </iframe>
 
+<h2>Discussion & Ride Reports</h2>
 <disqus [identifier]="route.id" [url]="'http://www.georgiagravelroutes.com/route/' + route.id"></disqus>
