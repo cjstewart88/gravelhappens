@@ -22,7 +22,7 @@ import { SafeHtmlPipe } from './pipes/safe-html.pipe';
     SafeHtmlPipe
   ],
   imports: [
-    DisqusModule.forRoot('disqus_shortname'),
+    DisqusModule.forRoot('georgia-gravel-routes'),
     BrowserModule,
     AppRoutingModule
   ],
