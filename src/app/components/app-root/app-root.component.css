@@ -1,6 +1,7 @@
 header {
   width: 800px;
   margin: 40px auto;
+  text-align: center;
 }
 
 header h1 {
@@ -11,9 +12,6 @@ header h1 {
 }
 
 header nav {
-  float: right;
-  height: 40px;
-  line-height: 40px;
 }
 
 header nav a {
