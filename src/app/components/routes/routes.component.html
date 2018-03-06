@@ -1,3 +1,8 @@
+<p>
+  Georgia gravel roads offer some of the best riding the state has to offer. Here you can find 
+  those roads documented and ready for your next adventure.
+</p>
+
 <div *ngFor="let route of routes" id="routes-list">
   <a [routerLink]="['/routes', route.id]">
     <h2 class="route-preview-name" [ngStyle]="{'background-image': 'url(/assets/' + route.id + '/route-preview.png)' }">{{route.name}}</h2>
