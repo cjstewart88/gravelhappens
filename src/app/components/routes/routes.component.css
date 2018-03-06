@@ -1,12 +1,47 @@
-.route-preview-name {
+.intro-copy {  
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.route-preview {
+  position: relative;
+  display: block;
+  margin-bottom: 40px;
+  padding-top: 12px;
   box-sizing: border-box;
   height: 120px;
-  line-height: 120px;
-  color: #fff;
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 3px;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,1);
+  transition: all .15s ease;
+}
+
+.route-preview:hover .route-preview-name {
+  transform: translateY(-1px);
+}
+
+.route-preview-name {
+  display: block;
+  font-family: 'Amatic SC', cursive;
+  text-shadow: 0 2px 2px rgba(0,0,0,1);
+  color: #fff;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.route-preview-distance, .route-preview-location {
+  border-radius: 20px;
+  padding: 5px 14px;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  font-size: 12px;
+}
+
+.route-preview-location {
+  margin-right: 15px;
 }
 
 a {

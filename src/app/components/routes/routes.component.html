@@ -1,24 +1,18 @@
-<p>
-  Georgia gravel roads offer some of the best riding the state has to offer. Here you can find 
-  those roads documented and ready for your next adventure.
-</p>
+<div class="full-width-wrapper">
+  <p class="middle-wrapper intro-copy">
+    Georgia gravel roads offer some of the best cycling routes the state has to offer. We document 
+    those routes so you can start planning your next gravel grinder.
+  </p>
+</div>
 
-<div *ngFor="let route of routes" id="routes-list">
-  <a [routerLink]="['/routes', route.id]">
-    <h2 class="route-preview-name" [ngStyle]="{'background-image': 'url(/assets/' + route.id + '/route-preview.png)' }">{{route.name}}</h2>
-  </a>
-  <div class="metrics-wrapper">
-    <div class="route-metrics">
-      <span class="metric">{{route.location}}</span>
-      <span class="metric-name">Location</span>
-    </div>
-    <div class="route-metrics">
-      <span class="metric">{{route.distance}}</span>
-      <span class="metric-name">Miles</span>
-    </div>
-    <div class="route-metrics">
-      <span class="metric">{{route.elevation}} ft</span>
-      <span class="metric-name">Elevation</span>
-    </div>
+<div class="middle-wrapper">
+  <div *ngFor="let route of routes" id="routes-list">
+    <a class="route-preview"
+      [routerLink]="['/routes', route.id]" 
+      [ngStyle]="{'background-image': 'url(/assets/' + route.id + '/route-preview.png)' }">
+      <span class="route-preview-name">{{route.name}}</span>
+      <span class="route-preview-location">{{route.location}}</span>
+      <span class="route-preview-distance">{{route.distance}} miles</span>
+    </a>
   </div>
 </div>

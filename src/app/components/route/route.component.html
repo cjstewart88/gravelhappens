@@ -1,28 +1,17 @@
-<div class="metrics-wrapper">
-  <div class="route-metrics">
-    <span class="metric">{{route.name}}</span>
-    <span class="metric-name">Route Name</span>
-  </div>
-  <div class="route-metrics">
-    <span class="metric">{{route.location}}</span>
-    <span class="metric-name">Location</span>
-  </div>
-  <div class="route-metrics">
-    <span class="metric">{{route.distance}}</span>
-    <span class="metric-name">Miles</span>
-  </div>
-  <div class="route-metrics">
-    <span class="metric">{{route.elevation}} ft</span>
-    <span class="metric-name">Elevation</span>
+<div class="full-width-wrapper">
+  <div class="middle-wrapper">
+    <app-route-metrics [route]="route"></app-route-metrics>
   </div>
 </div>
 
-<section class="route-description" [innerHTML]="route.longDescription | safeHtml"></section>
+<div class="route-description" [innerHTML]="route.longDescription | safeHtml"></div>
 
-<h2>The Route</h2>
-<iframe [src]="'https://rwgps-embeds.com/embeds?type=route&amp;id=' + route.rideWithGpsId + '&amp;sampleGraph=true' | safeUrl" 
-  style="width: 1px; min-width: 100%; height: 500px; border: none;" scrolling="no">
-</iframe>
+<div class="middle-wrapper">
+  <h2>The Route</h2>
+  <iframe [src]="'https://rwgps-embeds.com/embeds?type=route&amp;id=' + route.rideWithGpsId + '&amp;sampleGraph=true' | safeUrl" 
+    style="width: 1px; min-width: 100%; height: 500px; border: none;" scrolling="no">
+  </iframe>
 
-<h2>Discussion & Ride Reports</h2>
-<disqus [identifier]="route.id" [url]="'http://www.georgiagravelroutes.com/route/' + route.id"></disqus>
+  <h2>Discussion & Ride Reports</h2>
+  <disqus [identifier]="route.id" [url]="'http://www.georgiagravelroutes.com/route/' + route.id"></disqus>
+</div>

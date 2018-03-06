@@ -12,6 +12,7 @@ import { RouteComponent } from './components/route/route.component';
 import { RoutesService } from './services/routes.service';
 import { SafeUrlPipe } from './pipes/safe-url.pipe';
 import { SafeHtmlPipe } from './pipes/safe-html.pipe';
+import { RouteMetricsComponent } from './components/route-metrics/route-metrics.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SafeHtmlPipe } from './pipes/safe-html.pipe';
     RoutesComponent,
     RouteComponent,
     SafeUrlPipe,
-    SafeHtmlPipe
+    SafeHtmlPipe,
+    RouteMetricsComponent
   ],
   imports: [
     DisqusModule.forRoot('georgia-gravel-routes'),

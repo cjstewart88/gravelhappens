@@ -1,65 +1,55 @@
 body {
   margin: 0;
   border-top: solid 5px #444;
+  color: #444;
+  background: #f9f8f6;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.middle-wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.middle-wrapper-1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.full-width-wrapper {
+  background: #dddeda;
+  margin-bottom: 40px;
+}
+
+img {
+  border-radius: 3px;
 }
 
 a {
   color: #444;
 }
 
-p {
-  font-size: 18px;
-  line-height: 28px;
-}
-
-p .floating-right-img {
-  float: right;
-  max-width: 390px;
-  margin-left: 20px;
-}
-
-p .floating-left-img {
-  float: left;
-  max-width: 390px;
-  margin-right: 20px;
-}
-
-.bottom-img {
-  max-width: 390px;
-}
-
-.bottom-img.first {
-  margin-right: 15px;
-}
-
-.solo-img {
+.route-description p {
   width: 800px;
+  margin: 20px auto 0;
+  font-size: 18px;
+  line-height: 32px;
 }
 
-.metrics-wrapper {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 10px 0;
-  margin-bottom: 40px;
-  border-top: solid 1px #ccc;
-  border-bottom: solid 1px #ccc;
+.route-description .img-wrapper {
+  width: 1000px;
+  margin: 20px auto 0;
+  position: relative;
 }
 
-.route-metrics {
-  display: inline-block;
+.route-description .img-wrapper.single-img img  {
+  width: 100%;
 }
 
-.route-metrics.last {
-  border-right: none;
+.route-description .img-wrapper.two-imgs img  {
+  width: 490px;
 }
 
-.metric {
-  display: block;
-  font-size: 28px;
-}
-
-.metric-name {
-  text-transform: uppercase;
-  font-size: 16px;
-  color: #a5a5a5;
+.route-description .img-wrapper.two-imgs img:first-child {
+  margin-right: 15px;
 }

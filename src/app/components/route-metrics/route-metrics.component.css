@@ -1,0 +1,24 @@
+.metrics-wrapper {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.route-metrics {
+  display: inline-block;
+}
+
+.route-metrics.last {
+  border-right: none;
+}
+
+.metric {
+  display: block;
+  font-size: 22px;
+}
+
+.metric-name {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #a5a5a5;
+}
