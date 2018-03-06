@@ -1,11 +1,9 @@
 <div class="app-root">
   <header>
-    <img src="/assets/ggr-200-transparent.png">
-    <!-- <nav>
-      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
-        true}">Routes</a>
-      <a href="mailto:cjstewart88@gmail.com">Contact</a>
-    </nav> -->
+    <a [routerLink]="['/']">
+      <span class="header-circle"></span>
+      <img src="/assets/ggr-logo-white.png">
+    </a>
   </header>
   <router-outlet></router-outlet>
 </div>

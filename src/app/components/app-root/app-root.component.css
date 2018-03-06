@@ -1,25 +1,25 @@
 header {
-  width: 800px;
-  margin: 40px auto;
+  position: relative;
+  padding: 40px 0;
   text-align: center;
+  background: url('/assets/ggr-header-img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-header h1 {
-  display: inline-block;
-  margin: 0;
-  height: 40px;
-  line-height: 40px;
+header img {
+  position: relative;
+  z-index: 10;
 }
 
-header nav {
-}
-
-header nav a {
-  display: inline-block;
-  margin-left: 20px;
-  text-decoration: none;
-}
-
-header nav a:hover, header nav a.active { 
-  text-decoration: underline;
+header .header-circle {
+  position: absolute;
+  display: block;
+  height: 200px;
+  width: 200px;
+  background: rgba(0,0,0,.4);
+  border-radius: 50%;
+  z-index: 5;
+  left: 50%;
+  margin-left: -100px;
 }
