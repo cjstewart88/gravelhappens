@@ -1,7 +1,11 @@
 .metrics-wrapper {
-  padding: 20px 0;
+  margin: 40px 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+
+.metrics-wrapper h1 {
+  margin: 0;
 }
 
 .route-metrics {

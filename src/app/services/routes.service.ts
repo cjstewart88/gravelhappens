@@ -16,15 +16,15 @@ export class RoutesService {
       rideWithGpsId: 26950038,
       longDescription:
         `
-        <div class="img-wrapper single-img">
-          <img src="/assets/the-dirty-sheets/route-preview.png">
-        </div>
         <p>
           You'll start this route out in the Cochran Mill Park parking lot, be 
           sure to take some cash or a credit card, there's a small fee. There's 
           bathrooms in case ya need'em and picnic tables to enjoy some grub after 
           your ride.
         </p>
+        <div class="img-wrapper single-img">
+          <img src="/assets/the-dirty-sheets/route-preview.png">
+        </div>
         <p>
           The route starts out on Cochran Mill Rd, but don't worry, shortly after 
           you'll be humming along the gravel for most of the rest of the ride. You'll 
