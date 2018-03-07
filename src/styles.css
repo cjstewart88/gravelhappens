@@ -5,6 +5,10 @@ body {
   font-family: 'Libre Baskerville', serif;
 }
 
+::selection {
+  background: #ffb7b7;
+}
+
 .middle-wrapper {
   width: 800px;
   margin: 0 auto;

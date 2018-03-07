@@ -17,10 +17,9 @@ export class RoutesService {
       longDescription:
         `
         <p>
-          You'll start this route out in the Cochran Mill Park parking lot, be 
-          sure to take some cash or a credit card, there's a small fee. There's 
-          bathrooms in case ya need'em and picnic tables to enjoy some grub after 
-          your ride.
+          You'll start this route out in the <a href="https://goo.gl/maps/bCse4pYrH2o" target="_blank">Cochran Mill Park</a> 
+          parking lot, be sure to take some cash or a credit card, there's a small fee. There's 
+          bathrooms in case ya need'em and picnic tables to enjoy some grub after your ride.
         </p>
         <div class="img-wrapper single-img">
           <img src="/assets/the-dirty-sheets/route-preview.png">
@@ -59,11 +58,11 @@ export class RoutesService {
       longDescription:
         `
         <p>
-          Juliette Park on the Ocmulgee River is where you'll unload for this route. Take in the river
-          and listen to the water rush over the falls just below before you head off. Beware, there's no 
-          bathroom's in sight, so take care of that before or once your deep in the Piedmont Wildlife 
-          Management Area. There's a couple of picnic tables for smashing your post ride food, so be sure 
-          to pack something to enjoy.
+          <a href="https://goo.gl/maps/ucnqzCzmMJG2" target="_blank">Juliette Park on the Ocmulgee River</a> 
+          is where you'll unload for this route. Take in the river and listen to the water rush over the falls 
+          just below before you head off. Beware, there's no bathroom's in sight, so take care of that before 
+          or once your deep in the Piedmont Wildlife Management Area. There's a couple of picnic tables for 
+          smashing your post ride food, so be sure to pack something to enjoy.
         </p>
         <div class="img-wrapper two-imgs">
           <img src="/assets/soggy-feet/4.JPG">
