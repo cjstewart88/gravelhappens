@@ -8,6 +8,53 @@ export class RoutesService {
 
   public routes: Route[] =[
     {
+      id: 'murder-creek',
+      name: 'Murder Creek',
+      location: 'Jasper County, GA',
+      distance: 25.4,
+      elevation: 1299,
+      rideWithGpsId: 26990986,
+      longDescription:
+        `
+        <p>
+          To start this route you'll park along the banks of Boyle Murder Lake in the Charlie 
+          Elliott Wildlife Center. Bring your fishing pole if you're into it, Murder Creek Lake is
+          across the road and you'll pass a few more fishing holes along the way. There's a picnic 
+          table (with a chill view), porta potty, and plenty of free parking.
+        </p>
+        <div class="img-wrapper single-img">
+          <img src="/assets/murder-creek/1.jpg">
+        </div>
+        <p>
+          There's around 3 miles of paved road on this route, the rest of the roads range from
+          packed red clay, chunky loose rock, and silky smooth dirt. Keep your wits about you, the 
+          terrain changes often and you'll want to pick your line wisely if your running thinner rubber.
+        </p>
+        <div class="img-wrapper two-imgs">
+          <img src="/assets/murder-creek/2.jpg">
+          <img src="/assets/murder-creek/3.jpg">
+        </div>
+        <p>
+          At one of the forks in the road you'll spot some cows and several places along the way fill your
+          nostrils with the smell of manure. It's good for the soul, so take it in, "moo" at the cows and 
+          enjoy yourself.
+        </p>
+        <p>
+          Near the end you'll creep up a long gravel hill and be rewarded with a bomber of a paved descent. 
+          Careful though, you'll reach speeds over 30 mph and at the bottom the asphalt gets sketchy, generating
+          some laughs good vibes.
+        </p>
+        <div class="img-wrapper two-imgs">
+          <img src="/assets/murder-creek/4.jpg">
+          <img src="/assets/murder-creek/5.jpg">
+        </div>
+        <div class="img-wrapper two-imgs">
+          <img src="/assets/murder-creek/6.jpg">
+          <img src="/assets/murder-creek/7.jpg">
+        </div>
+        `
+    },
+    {
       id: 'the-dirty-sheets',
       name: 'The Dirty Sheets',
       location: 'Palmetto, GA',
@@ -46,7 +93,6 @@ export class RoutesService {
           away to the gravel.
         </p>
         `
-        
     },
     {
       id: 'soggy-feet',
