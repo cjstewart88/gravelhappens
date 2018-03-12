@@ -17,10 +17,11 @@ export class RoutesService {
       longDescription:
         `
         <p>
-          To start this route you'll park along the banks of Boyle Murder Lake in the Charlie 
-          Elliott Wildlife Center. Bring your fishing pole if you're into it, Murder Creek Lake is
-          across the road and you'll pass a few more fishing holes along the way. There's a picnic 
-          table (with a chill view), porta potty, and plenty of free parking.
+          To start this route you'll park along the banks of 
+          <a href="https://goo.gl/maps/WSwB6WVeSLq" target="_blank">Boyle Murder Lake</a> in the 
+          Charlie Elliott Wildlife Center. Bring your fishing pole if you're into it, Murder Creek 
+          Lake is across the road and you'll pass a few more fishing holes along the way. There's a 
+          picnic table (with a chill view), porta potty, and plenty of free parking.
         </p>
         <div class="img-wrapper single-img">
           <img src="/assets/murder-creek/1.jpg">
@@ -35,14 +36,19 @@ export class RoutesService {
           <img src="/assets/murder-creek/3.jpg">
         </div>
         <p>
-          At one of the forks in the road you'll spot some cows and several places along the way fill your
-          nostrils with the smell of manure. It's good for the soul, so take it in, "moo" at the cows and 
-          enjoy yourself.
+          Several places along the way you'll fill your nostrils with the smell of manure. It's good for 
+          the soul... so take it in, "moo" at the cows, and enjoy yourself. Keep your eyes peeled, because
+          not only are there cows, but there's rumor that big foot roams the area.
         </p>
         <p>
-          Near the end you'll creep up a long gravel hill and be rewarded with a bomber of a paved descent. 
-          Careful though, you'll reach speeds over 30 mph and at the bottom the asphalt gets sketchy, generating
-          some laughs good vibes.
+          Near the end of the route you'll creep up a long gravel hill and be rewarded with a paved 
+          descent, awaiting to be bombed at speeds over 30mph. Careful though, the asphalt 
+          gets sketchy at the bottom, leaving you something to laugh about with your crew.
+        </p>
+        <p>
+          More than likely you hit this route early on a Saturday or Sunday morning, as you roll back 
+          around to the lakes the fishers will multiplied. If you brought your pole you can join'em or
+          you can enjoy a pecan roll and head home.
         </p>
         <div class="img-wrapper two-imgs">
           <img src="/assets/murder-creek/4.jpg">

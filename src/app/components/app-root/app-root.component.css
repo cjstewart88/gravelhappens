@@ -23,3 +23,15 @@ header .header-circle {
   left: 50%;
   margin-left: -100px;
 }
+
+footer.full-width-wrapper {
+  margin-bottom: 0;
+  margin-top: 100px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer a {
+  margin: 5px;
+  text-decoration: none;
+}
