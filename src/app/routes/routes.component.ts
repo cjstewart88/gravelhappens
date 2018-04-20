@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Route } from '../../interfaces/route';
-import { RoutesService } from '../../services/routes.service';
+import { Route } from '../route';
+import { RoutesService } from '../routes.service';
 
 @Component({
   selector: 'app-routes',

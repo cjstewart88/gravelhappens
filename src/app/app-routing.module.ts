@@ -1,25 +1,30 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { RoutesComponent } from './components/routes/routes.component';
-import { RouteComponent } from './components/route/route.component';
+import { CanLoadAdminSectionGuard } from './can-load-admin-section.guard';
 
 const appRoutes: Routes = [
-  { path: 'routes/:id', component: RouteComponent },
-  { path: '', component: RoutesComponent }
+  {
+    path: 'admin',
+    canLoad: [CanLoadAdminSectionGuard],
+    loadChildren: 'app/admin/admin.module#AdminModule'
+  },
+  {
+    path: 'routes',
+    loadChildren: 'app/route/route.module#RouteModule'
+  },
+  {
+    path: '',
+    loadChildren: 'app/routes/routes.module#RoutesModule'
+  }
 ];
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(
-      appRoutes,
-      {
-        enableTracing: false, // <-- debugging purposes only
-      }
-    )
+    RouterModule.forRoot(appRoutes)
   ],
-  exports: [
-    RouterModule
+  providers: [
+    CanLoadAdminSectionGuard
   ]
 })
 export class AppRoutingModule { }

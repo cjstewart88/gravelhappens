@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-import { Route } from '../../interfaces/route';
+import { Route } from '../../route';
 
 @Component({
   selector: 'app-route-metrics',

@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 
-import { Route } from '../../interfaces/route';
-import { RoutesService } from '../../services/routes.service';
+import { Route } from '../route';
+import { RoutesService } from '../routes.service';
 
 @Component({
   selector: 'app-route',

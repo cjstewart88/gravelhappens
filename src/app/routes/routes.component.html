@@ -6,7 +6,7 @@
 <div class="middle-wrapper">
   <div *ngFor="let route of routes" id="routes-list">
     <a class="route-preview"
-      [routerLink]="['/routes', route.id]" 
+      [routerLink]="['/routes', route.id]"
       [ngStyle]="{'background-image': 'url(/assets/' + route.id + '/route-preview.png)' }">
       <span class="route-preview-name">{{route.name}}</span>
       <span class="route-preview-location">{{route.location}}</span>
