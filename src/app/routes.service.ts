@@ -8,6 +8,86 @@ export class RoutesService {
 
   public routes: Route[] = [
     {
+      id: 'pine-log',
+      name: 'Pine Long',
+      location: 'White, GA',
+      distance: 19.3,
+      elevation: 1886,
+      rideWithGpsId: 27402380,
+      longDescription:
+        `
+        <p>
+          For this route, you'll park at <a href="https://goo.gl/maps/Rmd3VHeAYQ92" target="_blank" >Pine Log Parking</a>.
+          There's plenty of parking to go around, but that's about it. You'll spot an info station over
+          next to the ranger's station with a check-in book. This wildlife management area is closed all day during
+          deer firearms seasons and before 10am during deer and turkey archery season. Please check out the
+          <a href="http://georgiawildlife.com/pine-log-wma" target="_blank">Pine Log Wildlife Management Area's website</a>
+          for additional info on regulations and closings.
+        </p>
+
+        <p>
+          This route starts with small stream crossing and climb to a fire pit with a view. By the time you
+          reach the top of this first climb you'll be wondering what you've gotten yourself into. Keep an
+          eye on you water bottles, the chunky terrain will have them raddling around the whole time.
+        </p>
+
+        <div class="img-wrapper two-imgs">
+          <img src="/assets/pine-log/1.JPG">
+          <img src="/assets/pine-log/2.JPG">
+        </div>
+
+        <div class="img-wrapper single-img">
+          <img src="/assets/pine-log/3.JPG">
+        </div>
+
+        <p>
+          Get ready, the first desent gets a little sketchy. It had me yerning for a little suspension
+          and 3 inch tires so I could blast down it. Instead, breaks were squeezed and my
+          <a href="https://surlybikes.com/parts/tires/knard_41" target="_blank">41mm Knard's</a> skidded down
+          to a sweet creek where I took a deep breath and sent a text to my wife, "Half way in, this is harder
+          than I thought."
+        </p>
+
+        <div class="img-wrapper two-imgs">
+          <img src="/assets/pine-log/4.JPG">
+          <img src="/assets/pine-log/5.JPG">
+        </div>
+
+        <p>
+          Turns out the second half was just has gnarly as the first, and a little more. You'll spin up
+          and down a couple peaks, gripping your bars tight for the desents. At 11.5 miles in a sharp
+          left will come up. It's time to jump off the bike for a little hike-a-bike. This hill is not
+          ridable, so take your time, it's only 0.3 miles. At the top you'll be thankful to see
+          a gravel road and rewarded with a view.
+        </p>
+
+        <div class="img-wrapper single-img">
+          <img src="/assets/pine-log/6.JPG">
+        </div>
+
+        <div class="img-wrapper single-img">
+          <img src="/assets/pine-log/7.JPG">
+        </div>
+
+        <p>
+          After you rail down Sugar Hill, you'll have roughly 7 miles left and be faced with another
+          sharp left that takes you behind a large water tank. The trail you'll land on looks like
+          it's made for ATVs, but it's ridable and only 0.5 miles. Eventually it turns into nice dirt
+          roads that lead you to civilization.
+        </p>
+
+        <div class="img-wrapper two-imgs">
+          <img src="/assets/pine-log/8.JPG">
+          <img src="/assets/pine-log/9.JPG">
+        </div>
+
+        <p>
+          You'll climb about 2 miles of pavement before coasting down into the parking lot and heading
+          back home. This one will leave you feeling beaten up and thankful it's over, but glad you did it.
+        </p>
+        `
+    },
+    {
       id: 'murder-creek',
       name: 'Murder Creek',
       location: 'Jasper County, GA',
