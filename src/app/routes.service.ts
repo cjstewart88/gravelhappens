@@ -27,8 +27,8 @@ export class RoutesService {
 
         <p>
           This route starts with a small stream crossing and climb to a fire pit with a view. By the time you
-          reach the top of this first climb you'll be wondering what you've gotten yourself into. Keep an
-          eye on you water bottles, the chunky terrain will have them raddling around the whole time.
+          reach the top of this first climb, you'll be wondering what you've gotten yourself into. Keep an
+          eye on your water bottles, the chunky terrain will have them raddling around the whole time.
         </p>
 
         <div class="img-wrapper two-imgs">
@@ -54,7 +54,7 @@ export class RoutesService {
         </div>
 
         <p>
-          Turns out the second half was just has gnarly as the first, and a little more. You'll spin up
+          Turns out the second half was just as gnarly as the first, and a little more. You'll spin up
           and down a couple peaks, gripping your bars tight for the desents. At 11.5 miles in a sharp
           left will come up. It's time to jump off the bike for a little hike-a-bike. This hill is not
           ridable, so take your time, it's only 0.3 miles. At the top you'll be thankful to see
@@ -72,8 +72,8 @@ export class RoutesService {
         <p>
           After you rail down Sugar Hill, you'll have roughly 7 miles left and be faced with another
           sharp left that takes you behind a large water tank. The trail you'll land on looks like
-          it's made for ATVs, but it's ridable and only 0.5 miles. Eventually it turns into nice dirt
-          roads that lead you to civilization.
+          it's made for ATVs, but it's ridable and only 0.5 miles. Eventually it turns into a nice dirt
+          roads that leads you to civilization.
         </p>
 
         <div class="img-wrapper two-imgs">
