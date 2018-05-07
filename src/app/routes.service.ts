@@ -17,8 +17,8 @@ export class RoutesService {
       longDescription:
         `
         <p>
-          For this route, you'll park at <a href="https://goo.gl/maps/Rmd3VHeAYQ92" target="_blank" >Pine Log Parking</a>.
-          There's plenty of parking to go around, but that's about it. You'll spot an info station over
+          For this route, you'll park at the <a href="https://goo.gl/maps/Rmd3VHeAYQ92" target="_blank" >Pine Log parking lot</a>.
+          There's plenty of parking to go around, but that's about it. You'll spot an info board over
           next to the ranger's station with a check-in book. This wildlife management area is closed all day during
           deer firearms seasons and before 10am during deer and turkey archery season. Please check out the
           <a href="http://georgiawildlife.com/pine-log-wma" target="_blank">Pine Log Wildlife Management Area's website</a>
@@ -26,7 +26,7 @@ export class RoutesService {
         </p>
 
         <p>
-          This route starts with small stream crossing and climb to a fire pit with a view. By the time you
+          This route starts with a small stream crossing and climb to a fire pit with a view. By the time you
           reach the top of this first climb you'll be wondering what you've gotten yourself into. Keep an
           eye on you water bottles, the chunky terrain will have them raddling around the whole time.
         </p>
@@ -41,7 +41,7 @@ export class RoutesService {
         </div>
 
         <p>
-          Get ready, the first desent gets a little sketchy. It had me yerning for a little suspension
+          Get ready, the first descent gets a little sketchy. It had me yerning for a little suspension
           and 3 inch tires so I could blast down it. Instead, breaks were squeezed and my
           <a href="https://surlybikes.com/parts/tires/knard_41" target="_blank">41mm Knard's</a> skidded down
           to a sweet creek where I took a deep breath and sent a text to my wife, "Half way in, this is harder
