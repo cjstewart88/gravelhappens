@@ -1,7 +1,7 @@
 html,
 body {
    margin: 0;
-   padding: 0;
+   padding: 0 10px;
    height: 100%;
 }
 
@@ -16,20 +16,13 @@ body {
 }
 
 .middle-wrapper {
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
 .middle-wrapper-1200 {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
-}
-
-.full-width-wrapper {
-  background: #efefef;
-  margin-bottom: 40px;
-  border-top: solid 1px #868686;
-  border-bottom: solid 1px #bab8b6;
 }
 
 img {
@@ -41,14 +34,14 @@ a {
 }
 
 .route-description p {
-  width: 800px;
+  max-width: 800px;
   margin: 20px auto 0;
   font-size: 18px;
   line-height: 36px;
 }
 
 .route-description .img-wrapper {
-  width: 880px;
+  max-width: 880px;
   margin: 20px auto 0;
   position: relative;
 }
@@ -63,4 +56,14 @@ a {
 
 .route-description .img-wrapper.two-imgs img:first-child {
   margin-right: 15px;
+}
+
+@media only screen and (max-width: 920px) {
+  .route-description .img-wrapper.two-imgs img {
+    width: 100%;
+  }
+
+  .route-description .img-wrapper.two-imgs img:first-child {
+    margin-bottom: 20px;
+  }
 }
