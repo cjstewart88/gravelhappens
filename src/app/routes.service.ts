@@ -8,6 +8,61 @@ export class RoutesService {
 
   public routes: Route[] = [
     {
+      id: 'hitchiti',
+      name: 'Hitchiti',
+      location: 'Jones County, GA',
+      distance: 30.0,
+      elevation: 1800,
+      rideWithGpsId: 27639952,
+      longDescription:
+        `
+          <p>
+            Parking for this route is at the <a href="https://goo.gl/maps/5JaZ4Xc1dSH2" target="_blank">Hitchiti Experimental Forest
+            Information Station</a>. It's nothing special, in fact, it looks like a relic from the past and there's
+            zero amenities.
+          </p>
+
+          <p>
+            For the first 5 miles you'll roll over some teething chattering gravel, hoping the rest
+            isn't just as chunky. Luckily it's not, the rest is pretty smooth and ideal gravel, as far as
+            I'm concerned. A large chunk of this route cuts through the Hitchiti Experimental Forest.
+           Every now and then signage will pop-up that says what experiment was last run.
+          </p>
+
+          <div class="img-wrapper two-imgs">
+            <img src="/assets/hitchiti/1.JPG">
+            <img src="/assets/hitchiti/2.JPG">
+          </div>
+
+          <p>
+            While the first 5 miles are pretty remote feeling, the next 15 will have you occasionally passing
+            double wides, farm houses, and if you're lucky... a pony!
+          </p>
+
+          <div class="img-wrapper two-imgs">
+            <img src="/assets/hitchiti/3.JPG">
+            <img src="/assets/hitchiti/4.JPG">
+          </div>
+
+          <div class="img-wrapper two-imgs">
+            <img src="/assets/hitchiti/5.JPG">
+            <img src="/assets/hitchiti/6.JPG">
+          </div>
+
+          <p>
+            Miles 15-17 are amazing, super stright premium gravel with just enough downhill to carry you up
+            the next slight hill and ready to bomb the next stretch. Next you'll head into Round Oak. At 21.5
+            miles in you'll throw your bike over your shoulder and jump across the railroad tracks to start on
+            the final stretch. The final miles are filled with steep climbs and short descents, really testing
+            your will to stay on the bike.
+          </p>
+
+          <div class="img-wrapper single-img">
+            <img src="/assets/hitchiti/7.JPG">
+          </div>
+        `
+    },
+    {
       id: 'pine-log',
       name: 'Pine Long',
       location: 'White, GA',
