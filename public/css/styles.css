@@ -1,0 +1,230 @@
+html,
+body {
+   margin: 0;
+   padding: 0 10px;
+   height: 100%;
+}
+
+body {
+  color: #444;
+  background: #fff;
+  font-family: 'Libre Baskerville', serif;
+}
+
+::selection {
+  background: #ffb7b7;
+}
+
+.middle-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.middle-wrapper-1200 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  border-radius: 3px;
+}
+
+a {
+  color: #444;
+}
+
+.route-description p {
+  max-width: 800px;
+  margin: 20px auto 0;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.route-description .img-wrapper {
+  max-width: 880px;
+  margin: 20px auto 0;
+  position: relative;
+}
+
+.route-description .img-wrapper.single-img img  {
+  width: 100%;
+}
+
+.route-description .img-wrapper.two-imgs img  {
+  width: 430px;
+}
+
+.route-description .img-wrapper.two-imgs img:first-child {
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 920px) {
+  .route-description .img-wrapper.two-imgs img {
+    width: 100%;
+  }
+
+  .route-description .img-wrapper.two-imgs img:first-child {
+    margin-bottom: 20px;
+  }
+}
+
+.app-root {
+  min-height: 100%;
+  position: relative;
+}
+
+.main-content {
+  padding-bottom: 210px;
+}
+
+header {
+  position: relative;
+  padding: 40px 0;
+  margin-left: -20px;
+  margin-right: -20px;
+  text-align: center;
+  background: url('/images/ggr-header-img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header img {
+  position: relative;
+  z-index: 10;
+}
+
+header .header-circle {
+  position: absolute;
+  display: block;
+  height: 200px;
+  width: 200px;
+  background: rgba(0,0,0,.4);
+  border-radius: 50%;
+  z-index: 5;
+  left: 50%;
+  margin-left: -100px;
+}
+
+footer {
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 40px 0;
+  margin-bottom: 0;
+  margin-top: 100px;
+  text-align: center;
+}
+
+footer a {
+  margin: 5px;
+  text-decoration: none;
+}
+
+.intro-copy {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.route-preview {
+  position: relative;
+  display: block;
+  margin-bottom: 40px;
+  padding-top: 12px;
+  box-sizing: border-box;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  border-radius: 3px;
+  text-align: center;
+  transition: all .15s ease;
+}
+
+.route-preview:hover .route-preview-name {
+  transform: translateY(-1px);
+}
+
+.route-preview-name {
+  display: block;
+  font-family: 'Amatic SC', cursive;
+  text-shadow: 0 2px 2px rgba(0,0,0,1);
+  color: #fff;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.route-preview-distance, .route-preview-location {
+  border-radius: 20px;
+  padding: 5px 14px;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  font-size: 12px;
+}
+
+.route-preview-location {
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .route-preview {
+    background-size: auto;
+  }
+}
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.metrics-wrapper {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.metrics-wrapper h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 47px;
+}
+
+.route-metrics {
+  display: inline-block;
+}
+
+.route-metrics.last {
+  border-right: none;
+}
+
+.metric {
+  display: block;
+  font-size: 22px;
+}
+
+.metric-name {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #777676;
+}
+
+@media only screen and (max-width: 600px) {
+  .metrics-wrapper {
+    display: block;
+  }
+
+  .metrics-wrapper h1 {
+    text-align: center;
+  }
+
+  .route-metrics {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
