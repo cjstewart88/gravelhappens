@@ -78,31 +78,8 @@ a {
 }
 
 header {
-  position: relative;
-  padding: 40px 0;
-  margin-left: -20px;
-  margin-right: -20px;
   text-align: center;
-  background: url('/images/ggr-header-img.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-header img {
-  position: relative;
-  z-index: 10;
-}
-
-header .header-circle {
-  position: absolute;
-  display: block;
-  height: 200px;
-  width: 200px;
-  background: rgba(0,0,0,.4);
-  border-radius: 50%;
-  z-index: 5;
-  left: 50%;
-  margin-left: -100px;
+  margin-top: 40px;
 }
 
 footer {
