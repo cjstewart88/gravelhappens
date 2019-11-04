@@ -6,13 +6,13 @@ body {
 }
 
 body {
-  color: #444;
+  color: #000;
   background: #fff;
   font-family: 'Libre Baskerville', serif;
 }
 
 ::selection {
-  background: #ffb7b7;
+  background: #fff700;
 }
 
 .middle-wrapper {
@@ -29,10 +29,6 @@ body {
   height: 70px;
 }
 
-img {
-  border-radius: 3px;
-}
-
 a {
   color: #444;
 }
@@ -40,7 +36,7 @@ a {
 .route-description p {
   max-width: 800px;
   margin: 20px auto 0;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 36px;
 }
 
@@ -118,7 +114,6 @@ footer a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  border-radius: 3px;
   text-align: center;
   transition: all .15s ease;
 }
@@ -137,7 +132,6 @@ footer a {
 }
 
 .route-preview-distance, .route-preview-location {
-  border-radius: 20px;
   padding: 5px 14px;
   background: rgba(0,0,0,0.8);
   color: #fff;
@@ -173,6 +167,7 @@ h2 {
   margin: 0;
   font-size: 24px;
   line-height: 47px;
+  font-weight: normal;
 }
 
 .route-metrics {
