@@ -25,6 +25,10 @@ body {
   margin: 0 auto;
 }
 
+.spacer-70 {
+  height: 70px;
+}
+
 img {
   border-radius: 3px;
 }
