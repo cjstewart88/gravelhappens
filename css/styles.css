@@ -30,7 +30,8 @@ body {
 }
 
 a {
-  color: #444;
+  color: #000;
+  text-decoration: underline;
 }
 
 .route-description p {
@@ -140,10 +141,6 @@ footer a {
 
 .route-preview-location {
   margin-right: 15px;
-}
-
-a {
-  text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {
