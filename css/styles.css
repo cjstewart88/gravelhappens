@@ -117,6 +117,7 @@ footer a {
   background-size: 100%;
   text-align: center;
   transition: all .15s ease;
+  text-decoration: none;
 }
 
 .route-preview:hover .route-preview-name {
