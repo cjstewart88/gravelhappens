@@ -34,6 +34,19 @@ a {
   text-decoration: underline;
 }
 
+.free-sticker-link {
+  display: inline-block; 
+  margin-top: 40px; 
+  background: yellow; 
+  text-decoration: none; 
+  padding: 4px;
+}
+
+.free-sticker-link:hover {
+  background: orangered;
+  color: white;
+}
+
 .route-description p {
   max-width: 800px;
   margin: 20px auto 0;
@@ -41,30 +54,30 @@ a {
   line-height: 36px;
 }
 
-.route-description .img-wrapper {
+.img-wrapper {
   max-width: 880px;
   margin: 20px auto 0;
   position: relative;
 }
 
-.route-description .img-wrapper.single-img img  {
+.img-wrapper.single-img img  {
   width: 100%;
 }
 
-.route-description .img-wrapper.two-imgs img  {
+.img-wrapper.two-imgs img  {
   width: 430px;
 }
 
-.route-description .img-wrapper.two-imgs img:first-child {
+.img-wrapper.two-imgs img:first-child {
   margin-right: 15px;
 }
 
 @media only screen and (max-width: 920px) {
-  .route-description .img-wrapper.two-imgs img {
+  .img-wrapper.two-imgs img {
     width: 100%;
   }
 
-  .route-description .img-wrapper.two-imgs img:first-child {
+  .img-wrapper.two-imgs img:first-child {
     margin-bottom: 20px;
   }
 }
@@ -108,7 +121,7 @@ footer a {
 .route-preview {
   position: relative;
   display: block;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   padding-top: 12px;
   box-sizing: border-box;
   height: 120px;
