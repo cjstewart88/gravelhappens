@@ -1,3 +1,8 @@
+@font-face {
+  font-family: impact;
+  src: url('Impact Label.ttf');
+}
+
 html,
 body {
    margin: 0;
@@ -8,7 +13,7 @@ body {
 body {
   color: #000;
   background: #fff;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 ::selection {
@@ -34,19 +39,6 @@ a {
   text-decoration: underline;
 }
 
-.free-sticker-link {
-  display: inline-block; 
-  margin-top: 40px; 
-  background: yellow; 
-  text-decoration: none; 
-  padding: 4px;
-}
-
-.free-sticker-link:hover {
-  background: orangered;
-  color: white;
-}
-
 .route-description p {
   max-width: 800px;
   margin: 20px auto 0;
@@ -55,7 +47,7 @@ a {
 }
 
 .img-wrapper {
-  max-width: 880px;
+  max-width: 885px;
   margin: 20px auto 0;
   position: relative;
 }
@@ -92,8 +84,10 @@ a {
 }
 
 header {
+  font-family: impact;
   text-align: center;
   margin-top: 40px;
+  font-size: 40px;
 }
 
 footer {
@@ -119,38 +113,30 @@ footer a {
 }
 
 .route-preview {
-  position: relative;
-  display: block;
-  margin-bottom: 30px;
-  padding-top: 12px;
+  margin-bottom: 60px;
   box-sizing: border-box;
   height: 120px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  text-align: center;
   transition: all .15s ease;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+
+.route-preview span {
+  font-family: impact;
+  font-size: 22px;
   text-decoration: none;
+  margin-top:120px;
 }
 
-.route-preview:hover .route-preview-name {
-  transform: translateY(-1px);
-}
-
-.route-preview-name {
-  display: block;
-  font-family: 'Amatic SC', cursive;
-  text-shadow: 0 2px 2px rgba(0,0,0,1);
-  color: #fff;
-  font-size: 42px;
-  margin-bottom: 10px;
-}
-
-.route-preview-distance, .route-preview-location {
-  padding: 5px 14px;
-  background: rgba(0,0,0,0.8);
-  color: #fff;
-  font-size: 12px;
+.route-preview-distance {
+  text-align: right;
+} 
+.route-preview-location {
+  text-align: center;
 }
 
 .route-preview-location {
