@@ -113,30 +113,38 @@ footer a {
 }
 
 .route-preview {
-  margin-bottom: 60px;
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+  padding-top: 25px;
   box-sizing: border-box;
   height: 120px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  transition: all .15s ease;
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
-
-
-.route-preview span {
-  font-family: impact;
-  font-size: 22px;
-  text-decoration: none;
-  margin-top:120px;
-}
-
-.route-preview-distance {
-  text-align: right;
-} 
-.route-preview-location {
   text-align: center;
+  transition: all .15s ease;
+  text-decoration: none;
+}
+
+.route-preview:hover .route-preview-name {
+  transform: translateY(-1px);
+}
+
+.route-preview-name {
+  font-family: impact;
+  background: #fff;
+  color: #000;
+  font-size: 28px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.route-preview-distance, .route-preview-location {
+  background: #fff;
+  font-family: impact;
+  color: #000;
+  font-size: 18px;
 }
 
 .route-preview-location {
