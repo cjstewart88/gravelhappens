@@ -3,23 +3,6 @@
   src: url('Impact Label.ttf');
 }
 
-.blm {
-  width: 100%;
-  background: black;
-  color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  text-align: center;
-  padding: 5px;
-  z-index: 5;
-}
-
-.blm a {
-  color: white;
-  text-decoration: underline;
-}
-
 html,
 body {
    margin: 0;
@@ -149,18 +132,16 @@ footer a {
 }
 
 .route-preview-name {
-  font-family: impact;
-  background: #fff;
-  color: #000;
+  background: #000;
+  color: #fff;
   font-size: 28px;
   display: inline-block;
   margin-bottom: 12px;
 }
 
 .route-preview-distance, .route-preview-location {
-  background: #fff;
-  font-family: impact;
-  color: #000;
+  background: #000;
+  color: #fff;
   font-size: 18px;
 }
 
