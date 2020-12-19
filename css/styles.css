@@ -3,6 +3,11 @@
   src: url('Impact Label.ttf');
 }
 
+@font-face {
+  font-family: noto;
+  src: url('NotoSans-Regular.ttf');
+}
+
 html,
 body {
    margin: 0;
@@ -13,11 +18,12 @@ body {
 body {
   color: #000;
   background: #fff;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: noto;
 }
 
 ::selection {
-  background: #fff700;
+  background: #ec9134;
+  color: white;
 }
 
 .middle-wrapper {
@@ -42,8 +48,19 @@ a {
 .route-description p {
   max-width: 800px;
   margin: 20px auto 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 36px;
+}
+
+.route-description ol {
+  max-width: 800px;
+  margin: 20px auto 25px;
+  padding-left: 60px;
+  font-size: 16px;
+}
+
+.route-description ol li {
+  margin-bottom: 5px;
 }
 
 .img-wrapper {
@@ -125,6 +142,7 @@ footer a {
   text-align: center;
   transition: all .15s ease;
   text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .route-preview:hover .route-preview-name {
