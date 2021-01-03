@@ -45,22 +45,33 @@ a {
   text-decoration: underline;
 }
 
-.route-description p {
+.article .non-route-article {
+  max-width: 800px;
+  margin: 20px auto 0;
+}
+
+.article .non-route-article h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.article p {
   max-width: 800px;
   margin: 20px auto 0;
   font-size: 16px;
   line-height: 36px;
 }
 
-.route-description ol {
+.article ol, .article ul {
   max-width: 800px;
   margin: 20px auto 25px;
   padding-left: 60px;
   font-size: 16px;
+  line-height: 36px;
 }
 
-.route-description ol li {
-  margin-bottom: 5px;
+.article ol li, .article ul li {
+  margin-bottom: 10px;
 }
 
 .img-wrapper {
@@ -101,10 +112,30 @@ a {
 }
 
 header {
-  font-family: impact;
+  max-width: 800px;
+  margin: 40px auto 0;
+  line-height: 40px;
   text-align: center;
-  margin-top: 40px;
+}
+
+header .logo {
+  font-family: impact;
   font-size: 40px;
+}
+
+header .links {
+  margin-top: 15px;
+}
+
+header .links a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+header .links a:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-thickness: 2px;
 }
 
 footer {
