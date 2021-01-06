@@ -129,13 +129,13 @@ header .links {
 
 header .links a {
   margin: 0 10px;
-  text-decoration: none;
 }
 
 header .links a:hover {
-  text-decoration: underline;
-  text-decoration-color: black;
-  text-decoration-thickness: 2px;
+  padding: 0 5px;
+  background-color: orangered;
+  color: white;
+  text-decoration: none;
 }
 
 footer {
