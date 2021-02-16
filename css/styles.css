@@ -45,6 +45,26 @@ a {
   text-decoration: underline;
 }
 
+.rambling h3 {
+  margin-bottom: 5px;
+}
+
+.rambling h3 a {
+  text-decoration: none;
+}
+
+.rambling-read-it {
+  text-decoration: none;
+  padding: 0 5px;
+  background: #ccc;
+  color: black;
+}
+
+.rambling-read-it:hover {
+  background: black;
+  color: white;
+}
+
 .article .non-route-article {
   max-width: 800px;
   margin: 20px auto 0;
